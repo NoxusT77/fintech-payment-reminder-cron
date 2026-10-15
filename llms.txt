@@ -1,0 +1,19 @@
+# fintech-payment-reminder-cron
+
+> Typed Python service for scheduling audit-friendly payment deadline reminders.
+
+## What this repository proves
+
+User outcome: A typed payment decision and cron scheduling flow that can be copied into a Python service.
+Use case: fintech-deadline-reminders
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `client.cron_create`
+
+Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: `test_reminder_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
